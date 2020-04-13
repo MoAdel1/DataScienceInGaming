@@ -39,3 +39,55 @@ It is safe to assume that applications dependent on data may fall into one of th
 
 - Analytical applications: gives insights into the business 
 - Actionable applications: gives recommendations and actions to act upon 
+
+Some of these applications are illustrated in the following chart
+
+![Applications](./resources/applications.png)
+
+### Analytical applications:
+
+1. **Game KPIs**
+
+   Monitor on a daily basis the important KPIs such as number of downloads, average play time and number of new users, etc...
+
+2. **Game performance**
+
+   Monitor the actual performance of the game, any unexpected crash down or similar events.
+
+3. **Features effects**
+
+   Track the effect of new/existing feature in terms of players engagement and effect on overall KPIs as an example.
+ 
+4. **Purchase tracking**
+
+   Tracking for the current purchases inside the game and come up with KPIs to monitor as well.
+
+5. **Offers effects**
+
+   Track the effect of new/existing offers in terms of players engagement and effect on overall KPIs as an example.
+
+### Actionable applications:
+
+1. **Predict player lifetime value**
+
+   Build machine learning models to predict how much revenue could be expected from a certain player.
+    
+2. **Targeted Ads**
+
+   Build models to start giving certain Ads to certain customers which should increase convergence rate.
+
+3. **Targeted offers and deals**
+
+   Instead of general offers, we send specific offers and deals based on the player current behaviour and probability of leaving the game permanently (customer churn). This should keep the player engaged even for a longer time by giving him/her what he/she wants.
+ 
+4. **Sentiment analysis for reviews**
+
+   Given the huge number og players it becomes hard after some time to go through all the reviews on the play store manually, this is where sentiment analysis models come in. It goes through provided review to determine if it is positive or negative and much more.  
+
+5. **Players clustering**
+
+   On its own one may not see the value of clustering similar players together based on their behaviour/features; however such product is helpful for other products such as **[targeted offers and deals]** and **[targeted Ads]** to name a few. 
+
+6. **Customer churn**
+
+   Predict the probability of a player to stop playing the game for good within a certain time frame.
