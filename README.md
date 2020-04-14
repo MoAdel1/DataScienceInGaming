@@ -21,7 +21,7 @@ I hope this would give you the opportunity to know me better than a cover letter
 
 ## Data sources
 
-Usually we can split the data sources in gaming industry into three sources:
+We can split the data sources in gaming industry into three sources:
 
 - User/player data (play logs, purchases, events, etc...)
 - Performance data (game logs, crash down data, etc...)
@@ -91,3 +91,18 @@ Some of these applications are illustrated in the following chart
 6. **Customer churn**
 
     Predict the probability of a player to stop playing the game for good within a certain time frame.
+
+-----------------------------------------------------------------
+
+## Demo
+
+In this repo I have decided to make a demo about one of the proposed applications **[customer churn]**. This is one of the most important problems that may face any company, knowing that a customer may leave in the future and act accordingly is considered quite valuable. To make this demo is as meaningful as possible I have decided to use real life data from an android game called **Dodge the Mud**. It is a casual action game on Android. In the game, a player dodges mud coming down from the sky by touching buttons on the phone screen or tilting the phone; the player receives scores, which are proportional to the number of muds the player dodges. The data set covers the time period from 2015 to 2016 and contains around 153K game records for around 20K players. 
+
+The raw data along with some general guide lines for solving this problem were obtained from the following [research article](https://doi.org/10.1371/journal.pone.0180735)
+
+The demo can be found under **customerChurn/** subdirectory and contains the following:
+
+- [raw_data.csv](./customerChurn/raw_data.csv) : CSV file containing the raw data used
+- [experiment.ipynb](./customerChurn/experiment.ipynb) : jupyter notebook containing the actuall experiment
+- [experiment.pdf](./customerChurn/experiment.pdf) : PDF version of the experiment for viewing without running the code
+- [requirements.txt](customerChurn/requirements.txt) : contains the required modules to run the experiment
