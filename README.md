@@ -21,7 +21,7 @@ I hope this would give you the opportunity to know me better than a cover letter
 
 ## Data sources
 
-We can split the data sources in gaming industry into three sources:
+We can split the data sources in gaming industry into three groups:
 
 - User/player data (play logs, purchases, events, etc...)
 - Performance data (game logs, crash down data, etc...)
@@ -37,10 +37,10 @@ Different data sources are stored in the proper databases (structured/unstructur
 
 It is safe to assume that applications dependent on data may fall into one of the two categories:
 
-- Analytical applications: gives insights into the business 
-- Actionable applications: gives recommendations and actions to act upon 
+- Analytical applications: give insights into the business 
+- Actionable applications: give recommendations and actions to act upon 
 
-Some of these applications are illustrated in the following chart
+Some of these applications are illustrated in the following chart.
 
 ![Applications](./resources/applications.png)
 
@@ -56,11 +56,11 @@ Some of these applications are illustrated in the following chart
 
 3. **Features effects**
 
-    Track the effect of new/existing feature in terms of players engagement and effect on overall KPIs as an example.
+    Track the effect of new/existing features in terms of players engagement and effect on overall KPIs as an example.
  
 4. **Purchase tracking**
 
-    Tracking for the current purchases inside the game and come up with KPIs to monitor as well.
+    Tracking of the current purchases inside the game and definition on new KPIs to monitor.
 
 5. **Offers effects**
 
@@ -78,15 +78,15 @@ Some of these applications are illustrated in the following chart
 
 3. **Targeted offers and deals**
 
-    Instead of general offers, we send specific offers and deals based on the player current behaviour and probability of leaving the game permanently (customer churn). This should keep the player engaged even for a longer time by giving him/her what he/she wants.
+    Instead of general offers, the system sends specific offers and deals based on the player current behaviour and probability of leaving the game permanently (customer churn). This should keep the player engaged even for a longer time by giving him/her what he/she wants.
  
 4. **Sentiment analysis for reviews**
 
-    Given the huge number og players it becomes hard after some time to go through all the reviews on the play store manually, this is where sentiment analysis models come in. It goes through provided review to determine if it is positive or negative and much more.  
+    Given the huge number of players, going manually through all the reviews on the play store becomes harder after some time: sentiment analysis models can help by going through the reviews to determine if they are positive or negative and much more.  
 
 5. **Players clustering**
 
-    On its own one may not see the value of clustering similar players together based on their behaviour/features; however such product is helpful for other products such as **[targeted offers and deals]** and **[targeted Ads]** to name a few. 
+    Clustering similar players together based on their behaviour/features; such product is helpful for other products such as **[targeted offers and deals]** and **[targeted Ads]** to name a few. 
 
 6. **Customer churn**
 
@@ -96,13 +96,14 @@ Some of these applications are illustrated in the following chart
 
 ## Demo
 
-In this repo I have decided to make a demo about one of the proposed applications **[customer churn]**. This is one of the most important problems that may face any company, knowing that a customer may leave in the future and act accordingly is considered quite valuable. To make this demo is as meaningful as possible I have decided to use real life data from an android game called **Dodge the Mud**. It is a casual action game on Android. In the game, a player dodges mud coming down from the sky by touching buttons on the phone screen or tilting the phone; the player receives scores, which are proportional to the number of muds the player dodges. The data set covers the time period from 2015 to 2016 and contains around 153K game records for around 20K players. 
+In this repo I have decided to make a demo about one of the proposed applications **[customer churn]**. This is one of the most important problems a company may face and that's why knowing that a customer may leave and act accordingly is undoubtedly valuable. To make this demo is as meaningful as possible I used real life data from an android game called **Dodge the Mud**. It is a casual action game on Android. In the game, a player dodges mud coming down from the sky by touching buttons on the phone screen or tilting the phone; the player receives scores, which are proportional to the number of muds the player dodges. The data set covers the time period from 2015 to 2016 and contains around 153K game records for around 20K players. 
 
-The raw data along with some general guide lines for solving this problem were obtained from the following [research article](https://doi.org/10.1371/journal.pone.0180735)
+The raw data along with some general guide lines for solving this problem were obtained from the following [research article](https://doi.org/10.1371/journal.pone.0180735).
 
 The demo can be found under **customerChurn/** subdirectory and contains the following:
 
-- [raw_data.csv](./customerChurn/raw_data.csv) : CSV file containing the raw data used
-- [experiment.ipynb](./customerChurn/experiment.ipynb) : jupyter notebook containing the actuall experiment
-- [experiment.pdf](./customerChurn/experiment.pdf) : PDF version of the experiment for viewing without running the code
-- [requirements.txt](customerChurn/requirements.txt) : contains the required modules to run the experiment
+- [experiment.ipynb](./customerChurn/experiment.ipynb): Jupyter notebook containing the full experiment 
+- [experiment.pdf](./customerChurn/experiment.pdf): PDF version of the experiment for viewing without running the code 
+- requirements.txt: contains the required modules to run the experiment 
+- resources/: subdirectory containing raw data and cached data through the experiment 
+- auto_design/: custom made module for building full machine learning pipelines 
