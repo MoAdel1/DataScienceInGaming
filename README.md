@@ -2,20 +2,10 @@
 
 ## Introduction
 
-This repository is my attempt to show why I am a good fit for the senior data scientist position by:
+This repository is for:
 
-- Discussing possible applications using data science in Kolibri games
+- Discussing possible applications using data science in gaming industry
 - Give a demo for one of the problems that can be solved using machine learning with real life example data
-
-While Koilbri games may already be working on some or all of the proposed applications, the purpose here is to demonstrate my own:
-
-- Research skills
-- Creativity
-- Data science/Machine learning skills
-- Software development skills
-- Huge interest in working in Kolibri games as a new and exciting challenge for me
-
-I hope this would give you the opportunity to know me better than a cover letter or an assigned task.
 
 -----------------------------------------------------------------
 
